@@ -1,0 +1,55 @@
+---
+ku:
+  activerecord:
+    attributes:
+      poll:
+        expires_at: Dema derbasbûnê
+        options: Bijartî
+      user:
+        agreement: Peymana xizmetê
+        email: Navê email
+        locale: Mîhengê navxweyî
+        password: Şîfreya te
+      user/account:
+        username: navé xwe binivise
+      user/invite_request:
+        text: Rêzê
+    errors:
+      models:
+        account:
+          attributes:
+            username:
+              invalid: tenê tîp, jimar û binxet
+              reserved: nayê bikaranîn
+        admin/webhook:
+          attributes:
+            url:
+              invalid: URL'ek derbasdar nîne
+        doorkeeper/application:
+          attributes:
+            website:
+              invalid: ne girêdanek derbasdar
+        import:
+          attributes:
+            data:
+              malformed: hatiye şikandin
+        status:
+          attributes:
+            reblog:
+              taken: status jixwe heye
+        user:
+          attributes:
+            email:
+              blocked: pêşkevtên email yên neçalakî bikar tîne.
+              unreachable: lê nehat dîtin
+            role_id:
+              elevated: qonaxeke jorîn ji rola te ya heyî bêtir nabe
+        user_role:
+          attributes:
+            permissions_as_keys:
+              dangerous: hewceyî temamî hûrgilînê ye
+              elevated: nayê vekirin bê rola heyî ya te
+              own_role: nayê guhartin bê rola heyî ya te
+            position:
+              elevated: qonaxeke jorîn ji rola te ya heyî bêtir nabe
+              own_role: nayê guhartin bê rola heyî ya te.
